@@ -60,3 +60,19 @@ def save_data(name: str, description: str, price: int):
     conn.commit()
     conn.close()
 # save_data("shlok","i am very good at programming",1299)
+
+
+
+
+
+
+
+
+
+
+
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}

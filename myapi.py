@@ -75,4 +75,4 @@ def save_data(name: str, description: str, price: int):
 
 @app.get("/health")
 def health_check():
-    return {"status": "ok"}
+    return {"status": "ok you motherfucker"}
